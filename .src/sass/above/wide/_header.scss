@@ -1,0 +1,67 @@
+header {
+	position: relative;
+}
+
+.header {
+    max-width: 710px;
+    margin: 0 auto;
+    
+    div.headblock {
+        text-align: center;
+    }
+    
+    h1 {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding-top: 0.2em;
+        border-top: 9px solid #fff;
+        margin: 310px 0 0.05em;
+        font-size: 4.675em;
+        text-align: center;
+        
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            right: 70%;
+            left: 0;
+            bottom: -0.38em;
+            height: 9px;
+            background-color: #fff;
+        }
+        &:after {
+            right: 0;
+            left: 70%;
+        }
+    }
+    
+    .icons-a11y {
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        margin-left: -100px;
+    }
+} 
+
+.dateblock {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+
+    p.scheduled {
+        display: none;
+    }
+}
+
+.dt-start {
+    margin: -3em 0 .2em 0;
+    font-size: 2em;
+    color: $orange;
+}
+
+.at {
+    &:before, &:after {
+        display: none;
+    }
+}

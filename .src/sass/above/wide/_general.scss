@@ -1,0 +1,43 @@
+header {
+    padding: 2em;
+}
+
+h2 {
+    text-align: left;
+}
+	
+.header {
+   font-size: medium;
+}
+
+main {
+    padding: 1em 0;
+    max-width: 46.66666666666667em;
+    margin: 0 auto;
+}
+
+section {
+	display: table;
+	width: 100%;
+}
+
+.content {
+    display: table-cell;
+    width: 50%;
+    padding: 0;
+}
+
+.left {
+    padding-right: 3%;
+}
+
+.right {
+    padding-left: 3%;
+}
+
+footer {
+    width: 100%;
+    max-width: 46.66667em;
+    margin: 1em auto 0;
+    box-sizing: border-box;
+}

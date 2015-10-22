@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+// Variables
+@import "../common/variables";
+
+@import "./general";
+@import "./header";
+
+@media only print, #{$extended} {
+    @import "wide/general";
+    @import "wide/header";
+}

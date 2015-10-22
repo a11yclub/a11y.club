@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../../lib/font/icomoon.eot?fjvjiz');
+    src:url('../../lib/font/icomoon.eot?#iefixfjvjiz') format('embedded-opentype'),
+        url('../../lib/font/icomoon.woff?fjvjiz') format('woff'),
+        url('../../lib/font/icomoon.ttf?fjvjiz') format('truetype'),
+        url('../../lib/font/icomoon.svg?fjvjiz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"], .reveal .block:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quotes-left:before {
+    content: "\e600";
+}
+.icon-accessibility:before {
+    content: "\e601";
+}
+.icon-point-right:before {
+    content: "\e602";
+}
+.icon-warning:before {
+    content: "\e603";
+}
+
+/*********************************************
+ * INVERTED SLIDES
+ *********************************************/
+
+.reveal li {
+    margin-bottom: .5em;
+    
+    li {
+        margin-bottom: 0;
+    }
+    
+    pre {
+        width: 100%;
+    }
+}
+
+.reveal .block {
+    margin: 1em 0 0 4em;
+    text-align: left;
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+    color: #ff0;
+    
+    &:before {
+        display: block;
+        position: absolute;
+        left: -1.3333333em;
+        font-size: 300%;
+        text-shadow: 0 1px 0 #CCCC00, 0 2px 0 #C5C500, 0 3px 0 #BEBE00, 0 4px 0 #B8B800, 0 5px 0 #B1B100, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);;
+    }
+}
+
+.invert {
+    color: $mainColorInverted;
+}
+
+.invert h1,
+.invert h2,
+.invert h3,
+.invert h4,
+.invert h5,
+.invert h6 {
+    margin: $headingMargin;
+    color: $headingColorInverted;
+
+    font-family: $headingFont;
+    line-height: $headingLineHeight;
+    letter-spacing: $headingLetterSpacing;
+
+    text-transform: $headingTextTransform;
+    text-shadow: $headingTextShadowInverted;
+}
+
+.invert a:not(.image) {
+    color: $linkColorInverted;
+}
+.invert a:not(.image):hover {
+    color: $linkColorHoverInverted;
+}
