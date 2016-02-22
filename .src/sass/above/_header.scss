@@ -21,11 +21,11 @@ header {
         max-width: 100%;
         height: auto;
     }
-    
+
     .u-url {
         display: none;
     }
-    
+
     .icons-a11y {
         display: block;
         margin: 2em auto 0.5em;
@@ -35,10 +35,21 @@ header {
         border-radius: 50%;
         white-space: nowrap;
     }
-    
+
     p {
         line-height: 1;
     }
+}
+
+.align-right {
+    text-align: center;
+}
+
+.nueww {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
 }
 
 .address {
@@ -52,11 +63,12 @@ header {
 .p-location {
     position: relative;
     text-align: left;
-    padding-left: 74px;
+    padding-left: 54px;
     display: inline-block;
     vertical-align: middle;
-    margin: 0; 
+    margin: 0;
     font-weight: 400;
+    background-size: contain;
 }
 
 
@@ -64,12 +76,12 @@ header {
     position: relative;
     display: inline-block;
     margin: 2em auto 0;
-    
+
     .label {
         margin: 0;
         font-size: 0.85em;
         font-weight: 400;
-        
+
         &:before,
         &:after {
             content: '';
@@ -81,22 +93,22 @@ header {
             right: 0;
         }
     }
-    
+
     .scheduled {
         &:before {
-            right: 84%;
+            right: 92%;
         }
         &:after {
-            left: 84%;
+            left: 92%;
         }
     }
-    
+
     .at {
         &:before {
-            right: 74%;
+            right: 80%;
         }
         &:after {
-            left: 74%;
+            left: 80%;
         }
     }
 }

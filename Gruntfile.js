@@ -11,7 +11,12 @@ module.exports = function(grunt) {
 					cwd			: '.src/sass/above',
 		 			src			: ['**/*.scss'],
 					dest		: '.src/css/above',
-					ext			: '.css'
+					rename      : function (dest, src) {
+						var folder  = src.substring(0, src.lastIndexOf('/')),
+							filename    = src.substring(src.lastIndexOf('/'), src.length);
+						filename    = filename.substring(0, filename.lastIndexOf('.'));
+						return dest + '/' + folder + filename + '.css';
+					}
 				}],
 				options: {
 					sourcemap	: true,
@@ -24,7 +29,12 @@ module.exports = function(grunt) {
 					cwd			: '.src/sass/below',
 		 			src			: ['**/*.scss'],
 					dest		: '.src/css/below',
-					ext			: '.css'
+					rename      : function (dest, src) {
+						var folder  = src.substring(0, src.lastIndexOf('/')),
+							filename    = src.substring(src.lastIndexOf('/'), src.length);
+						filename    = filename.substring(0, filename.lastIndexOf('.'));
+						return dest + '/' + folder + filename + '.css';
+					}
 				}],
 				options: {
 					sourcemap	: true,
@@ -37,7 +47,12 @@ module.exports = function(grunt) {
 					cwd			: '.src/sass/noconcat',
 		 			src			: ['**/*.scss'],
 					dest		: '.src/css/noconcat',
-					ext			: '.css'
+					rename      : function (dest, src) {
+						var folder  = src.substring(0, src.lastIndexOf('/')),
+							filename    = src.substring(src.lastIndexOf('/'), src.length);
+						filename    = filename.substring(0, filename.lastIndexOf('.'));
+						return dest + '/' + folder + filename + '.css';
+					}
 				}],
 				options: {
 					sourcemap	: true,
@@ -45,28 +60,48 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
-		iconizr : {
-			dist : {
-				src : ['.src/icons'],
-				dest : ['css'],
-				options : {
-					render		: {
-						css		: false,
-						scss	: '../.src/sass/noconcat/icons'
+
+		iconizr					: {
+			dist				: {
+				src				: ['**/*.svg'],
+				dest			: 'css',
+				expand			: true,
+				cwd				: '.src/icons',
+				options			: {
+					log			: 'info',
+					shape		: {
+//						dest	: 'icons'
+						transform			: [
+							{svgo: {plugins: [{convertPathData: false}]}}
+						],
+						dimensions: {
+							maxWidth: 300
+						}
 					},
-					spritedir	: 'icons',
-					prefix		: 'icons',
-					common		: 'icon',
-					verbose		: 0,
-					keep		: 0,
-					dims		: 1,
-					quantize	: 1/*,
-					preview		: 'icons/preview'*/
+					icons				: {
+						dest			: '.',
+						prefix			: '.icons-%s',
+//						mixin			: 'icon',
+//						common			: 'icon',
+						dimensions		: '-dims',
+						layout			: 'vertical',
+						sprite			: 'icons/icons.svg',
+						render			: {
+							scss		: {
+								dest	: '../.src/sass/noconcat/icons'
+							}
+						},
+						bust			: true,
+						preview			: 'icons/preview',
+						loader			: {
+							dest		: 'icons-loader-fragment.html',
+							css			: 'icons.%s.css'
+						}
+					}
 				}
 			}
 		},
-		
+
 		favicons				: {
 			options				: {
 				html			: 'favicons/favicons.html',

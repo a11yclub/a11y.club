@@ -9,7 +9,7 @@ body {
 main, header, section, footer, figure, figcaption {
   display: block; }
 
-p {
+p, li {
   line-height: 1.75; }
 
 h1, h2 {
@@ -24,9 +24,9 @@ h2 {
   font-size: 1.65em;
   margin: 1.5em 0 1em;
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto; }
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto; }
 
 a {
   color: #ff7f00;
@@ -72,9 +72,9 @@ blockquote {
 
 p {
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto; }
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto; }
 
 .portrait {
   text-align: center;
@@ -91,13 +91,10 @@ header {
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM2NDY0NjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NyUiIHN0b3AtY29sb3I9IiMxMTExMTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvcmFkaWFsR3JhZGllbnQ+CiAgPHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
   /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #646464), color-stop(67%, #111111));
   /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #646464 0%, #111111 67%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 12+ */
   /* IE10+ */
-  background: -webkit-radial-gradient(center, ellipse, #646464 0%, #111111 67%);
   background: radial-gradient(ellipse at center, #646464 0%, #111111 67%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646464', endColorstr='$text',GradientType=1 );
@@ -106,8 +103,10 @@ header {
 .header img {
   max-width: 100%;
   height: auto; }
+
 .header .u-url {
   display: none; }
+
 .header .icons-a11y {
   display: block;
   margin: 2em auto 0.5em;
@@ -116,8 +115,18 @@ header {
   background-color: #ff7f00;
   border-radius: 50%;
   white-space: nowrap; }
+
 .header p {
   line-height: 1; }
+
+.align-right {
+  text-align: center; }
+
+.nueww {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 200%;
+  white-space: nowrap; }
 
 .address {
   text-align: center;
@@ -129,11 +138,12 @@ header {
 .p-location {
   position: relative;
   text-align: left;
-  padding-left: 74px;
+  padding-left: 54px;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  background-size: contain; }
 
 .dateblock {
   position: relative;
@@ -152,13 +162,13 @@ header {
       left: 0;
       right: 0; }
   .dateblock .scheduled:before {
-    right: 84%; }
+    right: 92%; }
   .dateblock .scheduled:after {
-    left: 84%; }
+    left: 92%; }
   .dateblock .at:before {
-    right: 74%; }
+    right: 80%; }
   .dateblock .at:after {
-    left: 74%; }
+    left: 80%; }
 
 .dt-start {
   display: inline-block;
@@ -173,19 +183,17 @@ header {
 .blink {
   color: #ff7f00;
   -webkit-animation: blink 1s step-end infinite;
-  animation: blink 1s step-end infinite; }
+          animation: blink 1s step-end infinite; }
 
 @-webkit-keyframes blink {
   0% {
     opacity: 1; }
-
   50% {
     opacity: 0; } }
 
 @keyframes blink {
   0% {
     opacity: 1; }
-
   50% {
     opacity: 0; } }
 
@@ -198,7 +206,7 @@ header {
     font-size: medium; }
   main {
     padding: 1em 0;
-    max-width: 46.66667em;
+    max-width: 46.66666666666667em;
     margin: 0 auto; }
   section {
     display: table;
@@ -215,11 +223,11 @@ header {
     width: 100%;
     max-width: 46.66667em;
     margin: 1em auto 0;
-    -moz-box-sizing: border-box;
     box-sizing: border-box; }
   header {
     position: relative; }
   .header {
+    position: relative;
     max-width: 710px;
     margin: 0 auto; }
     .header div.headblock {
@@ -236,19 +244,23 @@ header {
       .header h1:before, .header h1:after {
         content: '';
         position: absolute;
-        right: 70%;
+        right: 66%;
         left: 0;
         bottom: -0.38em;
         height: 9px;
         background-color: #fff; }
       .header h1:after {
         right: 0;
-        left: 70%; }
+        left: 66%; }
     .header .icons-a11y {
       position: absolute;
       top: 60px;
       left: 50%;
       margin-left: -100px; }
+  .align-right {
+    position: absolute;
+    top: 0;
+    right: 0; }
   .dateblock {
     width: 100%;
     text-align: center;
@@ -256,7 +268,7 @@ header {
     .dateblock p.scheduled {
       display: none; }
   .dt-start {
-    margin: -3em 0 0.2em 0;
+    margin: -3em 0 .2em 0;
     font-size: 2em;
     color: #ff7f00; }
   .at:before, .at:after {
