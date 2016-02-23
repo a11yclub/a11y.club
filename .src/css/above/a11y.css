@@ -108,7 +108,7 @@ header {
 
 .header .icons-a11y {
   display: block;
-  margin: 2em auto 0.5em;
+  margin: 0 auto 0.5em;
   overflow: hidden;
   text-indent: 200%;
   background-color: #ff7f00;
@@ -117,9 +117,6 @@ header {
 
 .header p {
   line-height: 1; }
-
-.align-right {
-  text-align: center; }
 
 .nueww {
   display: inline-block;
