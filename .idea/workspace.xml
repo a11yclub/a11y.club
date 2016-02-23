@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9198eccf-c01d-4d79-8e6a-afb4b9e9ea2d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/favicon/favicon.png" afterPath="$PROJECT_DIR$/.src/favicon/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a11y.png" afterPath="$PROJECT_DIR$/a11y.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/audio/01_a11yclub_#1_20140716_Intro.mp3" afterPath="$PROJECT_DIR$/archive/20140716/audio/01_a11yclub_#1_20140716_Intro.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/audio/02_a11yclub_#1_20140716_Screenreaders.mp3" afterPath="$PROJECT_DIR$/archive/20140716/audio/02_a11yclub_#1_20140716_Screenreaders.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/audio/03_a11yclub_#1_20140716_Debriefing.mp3" afterPath="$PROJECT_DIR$/archive/20140716/audio/03_a11yclub_#1_20140716_Debriefing.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_01.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_02.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_03.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_04.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_05.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_06.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_06.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_07.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_07.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_08.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_08.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_09.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_09.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_10.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_11.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_12.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_13.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_14.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_15.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_16.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_17.jpg" afterPath="$PROJECT_DIR$/archive/20140716/images/a11yclub_#1_20140716_17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/images/a11yclub.png" afterPath="$PROJECT_DIR$/archive/20140716/slides/images/a11yclub.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/images/odl-nbg.png" afterPath="$PROJECT_DIR$/archive/20140716/slides/images/odl-nbg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/images/odl-picture.jpg" afterPath="$PROJECT_DIR$/archive/20140716/slides/images/odl-picture.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.eot" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.ttf" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.woff" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.zip" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/accessibility-club-logo.png" afterPath="$PROJECT_DIR$/img/accessibility-club-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/kerstin-probiesch-a11y.jpg" afterPath="$PROJECT_DIR$/img/kerstin-probiesch-a11y.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/marco-zehe-a11y.jpg" afterPath="$PROJECT_DIR$/img/marco-zehe-a11y.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/icons/a11y.svg" afterPath="$PROJECT_DIR$/.src/icons/a11y.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/icons/location.svg" afterPath="$PROJECT_DIR$/.src/icons/location.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/icons/protak.svg" afterPath="$PROJECT_DIR$/.src/icons/protak.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/icons/tollwerk.svg" afterPath="$PROJECT_DIR$/.src/icons/tollwerk.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/icons/wiref.svg" afterPath="$PROJECT_DIR$/.src/icons/wiref.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/sass/above/_general.scss" afterPath="$PROJECT_DIR$/.src/sass/above/_general.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/sass/above/_header.scss" afterPath="$PROJECT_DIR$/.src/sass/above/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/sass/above/a11y.scss" afterPath="$PROJECT_DIR$/.src/sass/above/a11y.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/sass/above/wide/_general.scss" afterPath="$PROJECT_DIR$/.src/sass/above/wide/_general.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/sass/above/wide/_header.scss" afterPath="$PROJECT_DIR$/.src/sass/above/wide/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.src/sass/common/_variables.scss" afterPath="$PROJECT_DIR$/.src/sass/common/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/.htaccess" afterPath="$PROJECT_DIR$/archive/20140716/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/a11ydeck.md" afterPath="$PROJECT_DIR$/archive/20140716/slides/a11ydeck.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/print/paper.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/print/paper.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/print/pdf.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/print/pdf.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/reveal.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/reveal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/reveal.min.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/reveal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/beige.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/beige.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/blood.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/blood.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/default.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/moon.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/moon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/night.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/night.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/serif.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/serif.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/simple.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/simple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/sky.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/sky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/solarized.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/solarized.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/_a11y.scss" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/_a11y.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/mixins.scss" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/settings.scss" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/theme.scss" afterPath="$PROJECT_DIR$/archive/20140716/slides/css/theme/template/theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/index.html" afterPath="$PROJECT_DIR$/archive/20140716/slides/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/js/reveal.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/js/reveal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/js/reveal.min.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/js/reveal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/css/zenburn.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/css/zenburn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.svg" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/Read Me.txt" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/Read Me.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/demo-files/demo.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/demo-files/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/demo-files/demo.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/demo-files/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/demo.html" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/fonts/icomoon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/selection.json" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/selection.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/style.css" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/font/icomoon/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/js/classList.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/js/classList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/js/head.min.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/js/head.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/lib/js/html5shiv.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/lib/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/highlight/highlight.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/highlight/highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/leap/leap.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/leap/leap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/example.html" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/example.md" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/markdown.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/marked.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/markdown/marked.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/math/math.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/math/math.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/multiplex/client.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/multiplex/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/multiplex/index.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/multiplex/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/multiplex/master.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/multiplex/master.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes-server/client.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes-server/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes-server/index.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes-server/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes-server/notes.html" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes-server/notes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes/notes.html" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes/notes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes/notes.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/notes/notes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/postmessage/example.html" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/postmessage/example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/postmessage/postmessage.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/postmessage/postmessage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/print-pdf/print-pdf.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/print-pdf/print-pdf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/remotes/remotes.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/remotes/remotes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/search/search.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/search/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/20140716/slides/plugin/zoom-js/zoom.js" afterPath="$PROJECT_DIR$/archive/20140716/slides/plugin/zoom-js/zoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="a11y.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>L:\bauwerk\composer.json</pharConfigPath>
+    <pharPath>C:\ProgramData\ComposerSetup\bin\composer.phar</pharPath>
+    <phpPath>C:\Users\joschi\PHP\5.6_x64\php.exe</phpPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="a11y" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.src/sass/above/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.src/sass/above/wide/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.84750736">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.src/icons/a11y.svg" />
+        <option value="$PROJECT_DIR$/css/icons-loader-fragment.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.src/sass/above/_header.scss" />
+        <option value="$PROJECT_DIR$/.src/sass/above/wide/_header.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="L:/bauwerk/vendor/sebastian/comparator" />
+      <path value="L:/bauwerk/vendor/sebastian/diff" />
+      <path value="L:/bauwerk/vendor/sebastian/environment" />
+      <path value="L:/bauwerk/vendor/sebastian/exporter" />
+      <path value="L:/bauwerk/vendor/sebastian/global-state" />
+      <path value="L:/bauwerk/vendor/sebastian/recursion-context" />
+      <path value="L:/bauwerk/vendor/sebastian/version" />
+      <path value="L:/bauwerk/vendor/symfony/yaml" />
+      <path value="L:/bauwerk/vendor/zendframework/zend-diactoros" />
+      <path value="L:/bauwerk/vendor/zendframework/zend-stdlib" />
+      <path value="L:/bauwerk/vendor/zendframework/zendsearch" />
+      <path value="L:/bauwerk/vendor/aura/router" />
+      <path value="L:/bauwerk/vendor/composer" />
+      <path value="L:/bauwerk/vendor/doctrine/instantiator" />
+      <path value="L:/bauwerk/vendor/league/commonmark" />
+      <path value="L:/bauwerk/vendor/namelesscoder/fluid" />
+      <path value="L:/bauwerk/vendor/phpdocumentor/reflection-docblock" />
+      <path value="L:/bauwerk/vendor/phpspec/prophecy" />
+      <path value="L:/bauwerk/vendor/phpunit/php-code-coverage" />
+      <path value="L:/bauwerk/vendor/phpunit/php-file-iterator" />
+      <path value="L:/bauwerk/vendor/phpunit/php-text-template" />
+      <path value="L:/bauwerk/vendor/phpunit/php-timer" />
+      <path value="L:/bauwerk/vendor/phpunit/php-token-stream" />
+      <path value="L:/bauwerk/vendor/phpunit/phpunit" />
+      <path value="L:/bauwerk/vendor/phpunit/phpunit-mock-objects" />
+      <path value="L:/bauwerk/vendor/psr/http-message" />
+      <path value="L:/bauwerk/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="above" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="above" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a11y" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="Y:/odl" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\joschi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9198eccf-c01d-4d79-8e6a-afb4b9e9ea2d" name="Default" comment="" />
+      <created>1456160742496</created>
+      <option name="number" value="Default" />
+      <updated>1456160742496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14947917" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.src/sass/above/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.src/sass/above/wide/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8312678">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Y:/facsimile/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26588467">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049853373">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.src/icons/a11y.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08102955">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons/icons-6c8369ec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons/icons-f85c87f2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons-loader-fragment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033235583">
+          <caret line="0" column="608" selection-start-line="0" selection-start-column="608" selection-end-line="0" selection-end-column="608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons/icons-6048063a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons.fallback-sprite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.src/sass/above/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.src/sass/above/wide/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84750736">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

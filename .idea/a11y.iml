@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://L:/bauwerk/vendor/aura/router" />
+          <root url="file://L:/bauwerk/vendor/composer" />
+          <root url="file://L:/bauwerk/vendor/doctrine/instantiator" />
+          <root url="file://L:/bauwerk/vendor/league/commonmark" />
+          <root url="file://L:/bauwerk/vendor/namelesscoder/fluid" />
+          <root url="file://L:/bauwerk/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://L:/bauwerk/vendor/phpspec/prophecy" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-code-coverage" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-file-iterator" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-text-template" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-timer" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-token-stream" />
+          <root url="file://L:/bauwerk/vendor/phpunit/phpunit" />
+          <root url="file://L:/bauwerk/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://L:/bauwerk/vendor/psr/http-message" />
+          <root url="file://L:/bauwerk/vendor/psr/log" />
+          <root url="file://L:/bauwerk/vendor/sebastian/comparator" />
+          <root url="file://L:/bauwerk/vendor/sebastian/diff" />
+          <root url="file://L:/bauwerk/vendor/sebastian/environment" />
+          <root url="file://L:/bauwerk/vendor/sebastian/exporter" />
+          <root url="file://L:/bauwerk/vendor/sebastian/global-state" />
+          <root url="file://L:/bauwerk/vendor/sebastian/recursion-context" />
+          <root url="file://L:/bauwerk/vendor/sebastian/version" />
+          <root url="file://L:/bauwerk/vendor/symfony/yaml" />
+          <root url="file://L:/bauwerk/vendor/zendframework/zend-diactoros" />
+          <root url="file://L:/bauwerk/vendor/zendframework/zend-stdlib" />
+          <root url="file://L:/bauwerk/vendor/zendframework/zendsearch" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://L:/bauwerk/vendor/aura/router" />
+          <root url="file://L:/bauwerk/vendor/composer" />
+          <root url="file://L:/bauwerk/vendor/doctrine/instantiator" />
+          <root url="file://L:/bauwerk/vendor/league/commonmark" />
+          <root url="file://L:/bauwerk/vendor/namelesscoder/fluid" />
+          <root url="file://L:/bauwerk/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://L:/bauwerk/vendor/phpspec/prophecy" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-code-coverage" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-file-iterator" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-text-template" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-timer" />
+          <root url="file://L:/bauwerk/vendor/phpunit/php-token-stream" />
+          <root url="file://L:/bauwerk/vendor/phpunit/phpunit" />
+          <root url="file://L:/bauwerk/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://L:/bauwerk/vendor/psr/http-message" />
+          <root url="file://L:/bauwerk/vendor/psr/log" />
+          <root url="file://L:/bauwerk/vendor/sebastian/comparator" />
+          <root url="file://L:/bauwerk/vendor/sebastian/diff" />
+          <root url="file://L:/bauwerk/vendor/sebastian/environment" />
+          <root url="file://L:/bauwerk/vendor/sebastian/exporter" />
+          <root url="file://L:/bauwerk/vendor/sebastian/global-state" />
+          <root url="file://L:/bauwerk/vendor/sebastian/recursion-context" />
+          <root url="file://L:/bauwerk/vendor/sebastian/version" />
+          <root url="file://L:/bauwerk/vendor/symfony/yaml" />
+          <root url="file://L:/bauwerk/vendor/zendframework/zend-diactoros" />
+          <root url="file://L:/bauwerk/vendor/zendframework/zend-stdlib" />
+          <root url="file://L:/bauwerk/vendor/zendframework/zendsearch" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
