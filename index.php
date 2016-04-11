@@ -107,7 +107,8 @@
 				<div class="left content">
 					<h2>JAWS-Demonstration vom Spezialisten</h2>
 					<p>Beim Accessibility Club soll es vor allem um das gemeinsame Sammeln und Austauschen von Erfahrungen gehen, weniger um Frontalvorträge.</p>
-					<p>Im ersten Teil <b>von 16 bis 17 Uhr</b> wird Willi Lutzenberger mit seinem Team einen Einblick in die Funktion und Bedienung von <a href="http://de.wikipedia.org/wiki/Screenreader" target="_blank">Screenreadern</a> am Beispiel von <a href="http://www.freedomsci.de/prod01.htm" target="_blank">JAWS</a> geben. Wenn Du möchtest, kannst Du eines Deiner Projekte mit einem Screenreader erforschen und Fragen dazu zu klären.</p>
+					<p>Im ersten Teil <b>von 16 bis 17 Uhr</b> wird Matthias Landgraf aus dem Team um Willi
+                        Lutzenberger einen Einblick in die Funktion und Bedienung von <a href="http://de.wikipedia.org/wiki/Screenreader" target="_blank">Screenreadern</a> am Beispiel von <a href="http://www.freedomsci.de/prod01.htm" target="_blank">JAWS</a> geben. Wenn Du möchtest, kannst Du eines Deiner Projekte mit einem Screenreader erforschen und Fragen dazu zu klären.</p>
 					<p>Nach einer kurzen Pause wollen wir die Abendstunden mit der <b>praktischen Anwendung barrierefreier Techniken</b> oder Gesprächsrunden über verschiedenste Themen verbringen. Je nach Teilnehmerzahl bietet sich eine <a href="https://de.wikipedia.org/wiki/Tagung#Unkonferenz" target="_blank">unkonferenzartige</a> Vorab-Sessionplanung an.</p>
 				</div>
 				<div class="right content">
