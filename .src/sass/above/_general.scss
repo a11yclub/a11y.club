@@ -19,7 +19,6 @@ p, li, figcaption, blockquote {
 }
 
 h1, h2 {
-	text-align: center;
 	font-weight: 900;
 }
 
@@ -63,7 +62,7 @@ footer {
     border-top: 9px solid #eee;
     padding: 0 0 3em 0;
 
-    .content {
+    .content, .section {
         padding-top: 3em;
     }
 
@@ -77,10 +76,6 @@ footer {
 		top: 0;
 		left: 0;
 	}
-}
-
-#wiref {
-	padding-top: 160px;
 }
 
 dt {

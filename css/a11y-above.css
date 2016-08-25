@@ -13,7 +13,6 @@ p, li, figcaption, blockquote {
   line-height: 1.75; }
 
 h1, h2 {
-  text-align: center;
   font-weight: 900; }
 
 h1 {
@@ -50,7 +49,7 @@ footer {
   margin: 1em 1em 0 1em;
   border-top: 9px solid #eee;
   padding: 0 0 3em 0; }
-  footer .content {
+  footer .content, footer .section {
     padding-top: 3em; }
   footer address {
     padding: 120px 0 0 0; }
@@ -59,9 +58,6 @@ footer {
     clip: rect(0, 0, 0, 0);
     top: 0;
     left: 0; }
-
-#wiref {
-  padding-top: 160px; }
 
 dt {
   float: left;
@@ -212,6 +208,8 @@ header {
 @media only print, screen and (min-width: 56em) {
   header {
     padding: 2em; }
+  h1 {
+    text-align: center; }
   h2 {
     text-align: left; }
   .header {

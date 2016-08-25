@@ -116,7 +116,7 @@
                     <p>The Accessibility Club wants to give you the chance to get some real-world experience with assistive technology, deepen your knowledge about web accessibilty and get you in touch with like-minded webworkers. The goal is to enable you to make accessibility a natural part of your daily work and mindset.</p>
 				</div>
 				<div class="right content">
-                    <h2 id="karl">Welcome to a special guest: Karl Groves</h2>
+                    <h2 id="karl">Welcome our special guest: Karl Groves</h2>
                     <figure class="portrait">
                         <figcaption>We are extremely pleased that <a href="http://www.karlgroves.com" target="_blank">Karl Groves</a>, creator of <a href="https://tenon.io" target="_blank">Tenon</a> and Senior Technical Lead Accessibility Software Consultant &amp; Director of Training at <a href="https://www.paciellogroup.com" target="_blank">The Paciello Group</a>, is visiting Germany and that he gives us the chance to setup <strong>two consecutive meetups</strong> with him as a speaker.</figcaption>
                         <img src="/img/karl-groves-a11y.jpg" alt="Portrait of Karl Groves"/>
@@ -229,7 +229,7 @@
 					</address>
 				</div>
 			</section>
-            <div>
+            <div class="section">
                 <h3 class="by">A side event of</h3>
                 <address class="h-card icons-btconf" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization" id="btconf">
                     <div class="p-name p-label p-org" itemprop="name">beyond tellerrand // BERLIN 2016</div>
