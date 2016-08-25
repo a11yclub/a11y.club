@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+@mixin word-wrap() {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
 html {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: larger;
@@ -75,6 +86,10 @@ footer {
 		clip: rect(0,0,0,0);
 		top: 0;
 		left: 0;
+	}
+
+	a {
+		@include word-wrap;
 	}
 }
 
