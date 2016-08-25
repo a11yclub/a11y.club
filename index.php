@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<?php echo file_get_contents(__DIR__.DIRECTORY_SEPARATOR.'css'.DIRECTORY_SEPARATOR.'icons-loader-fragment.html'); ?>
 
 		<meta charset="utf-8" />
-		<title>Accessibility Club #3 — Treffen für Webworker zu Barrierefreiheit &amp; assistiven Technologien — 12. April 2016, Nürnberg Web Week 2016</title>
+		<title>Accessibility Club #4 + #5 — Hands-on webworker meetup about all things web accessibility &amp; assistive technology — November 7th + 10th, 2016</title>
 		<meta name="author" content="tollwerk® GmbH | Dipl.-Ing. Joschi Kuphal" />
 		<meta name="robots" content="index,follow" />
 		<meta name="mobileOptimized" content="width" />
@@ -13,8 +13,8 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 		<meta name="format-detection" content="telephone=no" />
-		<meta name="keywords" content="Accessibility, Barrierefreiheit, Assistive Technologie, Screenreader, Open Device Lab, tollwerk, Joschi Kuphal, Nürnberg, Nuernberg" />
-		<meta name="description" content="Accessibility Club #3 — Treffen für Webworker zu Barrierefreiheit &amp; assistiven Technologien — 12. April 2016, Nürnberg Web Week 2016" />
+		<meta name="keywords" content="Accessibility, Barrierefreiheit, Assistive Technologie, Assistive technology, Screenreader, tollwerk, Joschi Kuphal, Nürnberg, Nuernberg" />
+		<meta name="description" content="Accessibility Club #4 + #5 — Hands-on webworker meetup about all things web accessibility &amp; assistive technology — November 7th + 10th, 2016" />
 
 		<meta name="msapplication-square70x70logo" content="/favicons/windows-tile-70x70.png"/>
 		<meta name="msapplication-square150x150logo" content="/favicons/windows-tile-150x150.png"/>
@@ -40,118 +40,147 @@
 		<!--[if gte IE 9]><style type="text/css">.gradient{filter: none}</style><![endif]-->
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Accessibility Club #3 — 12. April 2016, Nürnberg Web Week 2016" />
-		<meta property="og:description" content="Treffen für Webentwickler &amp; -designer zur Förderung von Barrierefreiheit im Internet und zum Austausch über assistive Technologien — 12. April 2016, Nürnberg Web Week 2016" />
+		<meta property="og:title" content="Accessibility Club #4 + #5 — November 7th + 10th, 2016" />
+		<meta property="og:description" content="Hands-on meetup for web developers and designers about all things web accessibility and assistive technology — November 7th + 10th, 2016" />
 		<meta property="og:image" content="http://accessibility-club.org/a11y.png" />
 		<meta property="og:url" content="http://accessibility-club.org" />
-		<meta property="og:site_name" content="Accessibility Club #3 — 12. April 2016, Nürnberg Web Week 2016" />
+		<meta property="og:site_name" content="Accessibility Club #4 + #5 — November 7th + 10th, 2016" />
 
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@tollwerk">
 		<meta name="twitter:creator" content="@tollwerk">
 		<meta name="twitter:image" content="http://accessibility-club.org/a11y.png">
-		<meta name="twitter:description" content="Treffen für Webentwickler & -designer zur Förderung von Barrierefreiheit im Internet und zum Austausch über assistive Technologien — 12. April 2016, Nürnberg Web Week 2016">
-		<meta name="twitter:title" content="Accessibility Club #3 — 12. April 2016, Nürnberg Web Week 2016">
+		<meta name="twitter:description" content="Hands-on meetup for web developers and designers about all things web accessibility and assistive technology — November 7th + 10th, 2016">
+		<meta name="twitter:title" content="Accessibility Club #4 + #5 — November 7th + 10th, 2016">
 		<meta name="twitter:url" content="http://accessibility-club.org">
 
         <link rel=canonical href=“http://accessibility-club.org” />
 	</head>
 	<body>
 		<header role="banner" class="h-event gradient" itemscope="itemscope" itemtype="http://data-vocabulary.org/Event">
-            <div class="nueww icons-nueww2016 icons-nueww2016-dims">Eine Veranstaltung im Rahmen der Nürnberg Web Week 2016</div>
             <div class="header">
-                <a href="http://accessibility-club.org" class="u-url" itemprop="url"><img itemprop="photo" alt="Accessibility Club #3 — 12. April 2016, Nürnberg Web Week 2016" src="/img/accessibility-club-logo.png" width="255" height="255"/></a>
+                <a href="http://accessibility-club.org" class="u-url" itemprop="url"><img itemprop="photo" alt="Accessibility Club #4 + #5 — Hands-on webworker meetup about all things web accessibility &amp; assistive technology — November 7th + 10th, 2016" src="/img/accessibility-club-logo.png" width="255" height="255"/></a>
                 <h1 class="p-name">Accessibility Club</h1>
-                <span class="icons-a11y icons-a11y-dims p-summary" itemprop="summary">Treffen für Webentwickler &amp; -designer zur Förderung von Barrierefreiheit im Internet und zum Austausch über assistive Technologien</span>
+                <span class="icons-a11y icons-a11y-dims p-summary" itemprop="summary">Hands-on meetup for web developers and designers about all things web accessibility and assistive technology</span>
                 <div class="dateblock">
-                    <p class="label scheduled">in der Nürnberg Web Week am</p>
-                    <time class="dt-start" itemprop="dtstart" datetime="2016-04-12T16:00+02:00">12. April 2016</time>
-                    <time class="dt-end hide" itemprop="dtend" datetime="2016-04-12T22:00+02:00"></time>
-                    <p class="label at">16:00 bis 22:00 Uhr im</p>
+                    <p class="label scheduled">a side event of <a href="#btconf">beyond tellerrand</a></p>
+                    <time class="dt-start" itemprop="dtstart" datetime="2016-11-07T12:00+02:00">November 7th + 10th, 2016</time>
+                    <time class="dt-end hide" itemprop="dtend" datetime="2016-11-07T17:00+02:00"></time>
+                    <p class="label at">12:00-5:00 pm</p>
                 </div>
-                <a class="address" href="https://www.google.de/maps/place/tollwerk+GmbH+%7C+TYPO3-+%26+Werbeagentur+N%C3%BCrnberg/@49.4751594,11.1067807,15z/data=!4m2!3m1!1s0x0:0x84a1731ed749b69f?sa=X&ved=0CIABEPwSMBJqFQoTCO-s0vS12cgCFcRIFAod4hoKDg" target="_blank">
-                    <address class="p-location h-card icons-location" itemprop="location" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization">
-                        <div class="p-name p-label p-org" itemprop="name">tollwerk</div>
-                        <div class="p-adr h-adr" itemprop="address" itemscope="itemscope" itemtype="http://data-vocabulary.org/Address">
-                            <div class="p-street-address" itemprop="street-address">Klingenhofstraße 5</div>
-                            <div>
-                                <span class="p-postal-code" itemprop="postal-code">90411</span>
-                                <span class="p-locality" itemprop="locality">Nürnberg</span>
-                                <span class="hide">, <span class="p-country" itemprop="country-name">Deutschland</span></span>
-                            <span class="hide" itemprop="geo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Geo">
-                                <span class="p-latitude" itemprop="latitude">49.4751594</span>
-                                <span class="p-longitude" itemprop="longitude">11.1067807</span>
-                            </span>
+                <div>
+                    <a class="address" href="https://www.google.de/maps/place/Contentful/@52.5020786,13.4089942,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e2d9ef942a7:0xf37aecdabd536ef3!8m2!3d52.5020754!4d13.4111829" target="_blank">
+                        <address class="p-location h-card icons-location" itemprop="location" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization">
+                            <div class="p-name p-label p-org" itemprop="name">Contentful</div>
+                            <div class="p-adr h-adr" itemprop="address" itemscope="itemscope" itemtype="http://data-vocabulary.org/Address">
+                                <div class="p-street-address" itemprop="street-address">Ritterstraße 12</div>
+                                <div>
+                                    <span class="p-postal-code" itemprop="postal-code">10969</span>
+                                    <span class="p-locality" itemprop="locality">Berlin</span>
+                                    <span class="hide">, <span class="p-country" itemprop="country-name">Germany</span></span>
+                                <span class="hide" itemprop="geo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Geo">
+                                    <span class="p-latitude" itemprop="latitude">52.5020786</span>
+                                    <span class="p-longitude" itemprop="longitude">13.4089942</span>
+                                </span>
+                                </div>
+                                <div class="p-region hide" itemprop="region">Berlin</div>
                             </div>
-                            <div class="p-region hide" itemprop="region">Bayern</div>
-                        </div>
-                    </address>
-                </a>
+                        </address>
+                    </a>
+                    <a class="address" href="https://www.google.de/maps/place/tollwerk+GmbH+%7C+TYPO3-+%26+Werbeagentur+N%C3%BCrnberg/@49.4751594,11.1067807,15z/data=!4m2!3m1!1s0x0:0x84a1731ed749b69f?sa=X&ved=0CIABEPwSMBJqFQoTCO-s0vS12cgCFcRIFAod4hoKDg" target="_blank">
+                        <address class="p-location h-card icons-location" itemprop="location" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization">
+                            <div class="p-name p-label p-org" itemprop="name">tollwerk</div>
+                            <div class="p-adr h-adr" itemprop="address" itemscope="itemscope" itemtype="http://data-vocabulary.org/Address">
+                                <div class="p-street-address" itemprop="street-address">Klingenhofstraße 5</div>
+                                <div>
+                                    <span class="p-postal-code" itemprop="postal-code">90411</span>
+                                    <span class="p-locality" itemprop="locality">Nürnberg</span>
+                                    <span class="hide">, <span class="p-country" itemprop="country-name">Germany</span></span>
+                                <span class="hide" itemprop="geo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Geo">
+                                    <span class="p-latitude" itemprop="latitude">49.4751594</span>
+                                    <span class="p-longitude" itemprop="longitude">11.1067807</span>
+                                </span>
+                                </div>
+                                <div class="p-region hide" itemprop="region">Bavaria</div>
+                            </div>
+                        </address>
+                    </a>
+                </div>
             </div>
 		</header>
 		<main role="main">
 			<section>
 				<div class="left content">
-					<h2>Barrierefreiheit und assistive Technologien</h2>
-					<p>Obwohl die Notwendigkeit und der Mehrwert <a href="http://de.wikipedia.org/wiki/Barrierefreies_Internet" target="_blank">barrierefreier</a> Angebote im Internet auf der Hand liegen, finden etablierte Standards zur Umsetzung bisher kaum allgemeine Anwendung. Ein vermeintlich zwangsläufiger Mehraufwand, knappe Budgets und der gängige Irrtum <q>Validität = Barrierefreiheit</q> — die auf Nachfrage angeführten Gründe sind vielfältig. In vielen Fällen ist jedoch schlicht die Ahnungslosigkeit der beteiligten Webentwickler und -designer die Ursache für unnötige Barrieren. Kein Wunder, sind doch bislang nur die Wenigsten selbst mit <a href="http://de.wikipedia.org/wiki/Unterst%C3%BCtzungstechnologie" target="_blank">assistiven Technologien</a> auf Tuchfühlung gegangen.</p>
-					<p>Mit dem Accessibility Club möchten wir Dir eine handfeste Möglichkeit bieten, Erfahrungen mit Barrierefreiheit im Web zu sammeln, zu vertiefen und mit anderen Interessierten auszutauschen. Ziel soll es sein, dass Du barrierefreie Techniken standardmäßig in deine eigene Arbeitswelt übernehmen und zur Selbstverständlichkeit werden lassen kannst.</p>
+					<h2>Web accessibility and assistive technology</h2>
+                    <p>While the necessity and benefits of accessible services on the web are pretty obvious, <a href="https://en.wikipedia.org/wiki/Web_accessibility" target="_blank">web accessibility</a> is still not a widespread practice. Common reasonsings range from putative additional efforts, tight budgets to the misbelief that "validity equals accessibilty". In many cases, however, it seems that the majority of developers simply has no clue where to start — which comes as no surprise as most of them have never gotten their hands on <a href="https://en.wikipedia.org/wiki/Assistive_technology" target="_blank">assistive technology</a>.</p>
+                    <p>The Accessibility Club wants to give you the chance to get some real-world experience with assistive technology, deepen your knowledge about web accessibilty and get you in touch with like-minded webworkers. The goal is to enable you to make accessibility a natural part of your daily work and mindset.</p>
 				</div>
 				<div class="right content">
-					<h2>Accessibility-Treffen für Webworker</h2>
-					<p>Aufbauend auf den beiden vorangegangenen Malen soll vor allem der <b>praktische Einsatz barrierefreier Techniken</b> im Mittelpunkt des dritten Accessibility Clubs stehen, es ist also kollektive Code-Nerdery zu erwarten. Das Treffen ist natürlich wieder <b>vollkommen kostenlos</b> und reiht sich damit in die lange Liste spannender Veranstaltungen der <a href="http://nueww.de" target="_blank">Nürnberg Web Week 2016</a> ein — Dabei-Sein lohnt sich in jedem Fall!</p>
-					<p>Auch beim dritten Mal wird <a href="https://jkphl.is" target="_blank">Joschi Kuphal</a> am Veranstaltungsabend wieder von <b>Willi Lutzenberger</b> und seinem Team tatkräftig unterstützt: Als Spezialist für assistive Technologien — und selbst blind — bietet er mit seinem Nürnberger Unternehmen <a href="http://www.protak.net">Protak</a> EDV-Lösungen und Dienstleistungen, um Blinde und Sehbehinderte sowohl im beruflichen als auch privaten Alltag bei der Erlangung maximaler Eigenständigkeit, Unabhängigkeit und Inklusion zu unterstützen.</p>
-					<p><b>Hast Du zufällig Lust und Energie</b>, den Accessibility Club organisatorisch zu unterstützen? Oder ist eher die Geselligkeit Dein Ding und Du möchtest eine Runde Pizza für alle spendieren? Wir freuen uns natürlich über <a href="mailto:hello@a11y-club.org?subject=Unterst%C3%BCtzung%20f%C3%BCr%20den%20Accessibility%20Club" title="Ja, ich möchte den Accessibility Club unterstützen!">jede Form von Unterstützung!</a></p>
+                    <h2 id="karl">Welcome to a special guest: Karl Groves</h2>
+                    <figure class="portrait">
+                        <figcaption>We are extremely pleased that <a href="http://www.karlgroves.com" target="_blank">Karl Groves</a>, creator of <a href="https://tenon.io" target="_blank">Tenon</a> and Senior Technical Lead Accessibility Software Consultant &amp; Director of Training at <a href="https://www.paciellogroup.com" target="_blank">The Paciello Group</a>, is visiting Germany and that he gives us the chance to setup <strong>two consecutive meetups</strong> with him as a speaker.</figcaption>
+                        <img src="/img/karl-groves-a11y.jpg" alt="Portrait of Karl Groves"/>
+                    </figure>
 				</div>
 			</section>
 			<section>
 				<div class="left content">
-					<h2>JAWS-Demonstration vom Spezialisten</h2>
-					<p>Beim Accessibility Club soll es vor allem um das gemeinsame Sammeln und Austauschen von Erfahrungen gehen, weniger um Frontalvorträge.</p>
-					<p>Im ersten Teil <b>von 16 bis 17 Uhr</b> wird Matthias Landgraf aus dem Team um Willi
-                        Lutzenberger einen Einblick in die Funktion und Bedienung von <a href="http://de.wikipedia.org/wiki/Screenreader" target="_blank">Screenreadern</a> am Beispiel von <a href="http://www.freedomsci.de/prod01.htm" target="_blank">JAWS</a> geben. Wenn Du möchtest, kannst Du eines Deiner Projekte mit einem Screenreader erforschen und Fragen dazu zu klären.</p>
-					<p>Nach einer kurzen Pause wollen wir die Abendstunden mit der <b>praktischen Anwendung barrierefreier Techniken</b> oder Gesprächsrunden über verschiedenste Themen verbringen. Je nach Teilnehmerzahl bietet sich eine <a href="https://de.wikipedia.org/wiki/Tagung#Unkonferenz" target="_blank">unkonferenzartige</a> Vorab-Sessionplanung an.</p>
+					<h2>November 7th, Berlin</h2>
+					<p>The first meetup on Monday, November 7th, acts as a <strong>side event</strong> of the <a href="#btconf">beyond tellerrand // BERLIN 2016</a> conference. It's hosted by <a href="#joschi">Joschi</a> and <a href="#stefan">Stefan</a> at the fantastic premises of <a href="#contentful">Contentful</a> in Berlin Kreuzberg.</p>
+                    <p><a href="#karl">Karl</a> will kick off the event at 12:00 pm with a talk with the promising title</p>
+                    <blockquote class="talk-title">Modern Web Toolsets &amp; The Next Generation of Accessibility Testing Tools</blockquote>
+                    <p>Expect a comprehensive view on the evolution of <strong>accessibilty testing</strong>, different approaches of how to add accessibility testing into a large number of touch-points in the development process and a lot of real-world examples. You will also (but not exclusively) learn quite a bit about the use of <a href="https://tenon.io" target="_blank">Tenon</a>.</p>
+                    <p>The event is <strong>limited to 60 attendees</strong> and run on a <strong>non-profit basis</strong>. Attendees are required to make <strong>a donation of any amount</strong> (min. € 15) which will be used to accomodate Karl and cover the basic expenses. Budget leftovers will entirely be donated to <a href="http://www.knowbility.org" target="_blank">Knowbility</a>.</p>
+                    <p>Join us for this great gathering in Berlin,</p>
+                    <a href="https://ti.to/tollwerk/accessibility-club-4" target="_blank" class="cto">get your ticket over at Tito</a>
+                    <p>and let your friends on <a href="https://twitter.com/intent/tweet?text=I%27ll+attend+Accessibility+Club+%234%21+Who%27s+in%3F+%23a11y+%23a11yclub&url=http://a11y.club&via=tollwerk" target="_blank">Twitter</a>, <a href="#" target="_blank">Facebook</a> and <a href="http://lanyrd.com/2016/accessibility-club-4" target="_blank">Lanyrd</a> know that you will be part of it!</p>
 				</div>
 				<div class="right content">
-					<h2>ally.js — JavaScript-Helfer für Websites</h2>
-					<p>Als weit angereisten Gast dürfen wir uns dieses Mal besonders auf <a href="http://rodneyrehm.de" target="_blank">Rodney Rehm</a> freuen, der uns <b>ab 17 Uhr</b> seine noch junge JavaScript-Bibliothek <a href="http://allyjs.io" target="_blank">ally.js</a> vorstellen und demonstrieren wird.</p>
-                    <p class="portrait">
-                        <img src="/img/rodney-rehm-a11y.jpg" alt="Portrait von Rodney Rehm"/>
-                    </p>
-					<p><strong>ally.js</strong> hilft Website-Entwicklern durch die Vereinfachung häufig genutzter Accessibility-Features und -Funktionen und die Egalisierung von Browserunterschieden.</p>
+                    <h2>November 10th, Nürnberg</h2>
+                    <p>The second meetup on Thursday, November 10th, will be hosted by <a href="#joschi">Joschi</a> at the <a href="#tollwerk">tollwerk</a> space in Nuremberg as usual. Again, <a href="#karl">Karl</a> will kick off things with a talk, but the topic is still to be decided and might differ from the one in Berlin. Please participate in this <a href="https://twitter.com/jkphl/status/768875945352626177" target="_blank">Twitter poll</a> to express your preference. Details about the topic, the schedule and whether the event will be free are expected to be available soon.</p>
+                    <o>Please <a href="mailto:hello@a11y-club.org">get in touch</a> if you're interested in</p>
+                    <a href="mailto:hello@a11y-club.org" class="cto">sponsoring this event</a>
+                    <p>or know someone who might be.</p>
+                    <h2>Sessions &amp; discussions</h2>
+                    <p>At both meetups we will have a <strong>short break</strong> after Karl's talk where we can refresh ourselves and grab a snack. After the break we will switch into barcamp mode and collect <strong>topics for adhoc sessions and discussions</strong> like</p>
+                    <ul>
+                        <li>the proper use of <a href="https://en.wikipedia.org/wiki/Semantic_HTML" target="_blank">semantic markup</a>,</li>
+                        <li><a href="http://www.w3.org/WAI/intro/aria" target="_blank">WAI-ARIA</a>,</li>
+                        <li>accessible <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" target="_blank">SVG</a> and</li>
+                        <li>development tips, tricks &amp; tools</li>
+                    </ul>
+                    <p>to just name a few possibilities. There will be lots of opportunity to chat about <strong>what you are really interested in</strong>.</p>
 				</div>
 		   	</section>
-
 		   	<section>
 		   		<div class="left content">
-                    <h2>Im Anschluss: Themen-Sessions</h2>
-                    <p>Mögliche Schwerpunkte wären etwa:</p>
-                    <ul>
-                        <li><a href="http://en.wikipedia.org/wiki/Semantic_HTML" target="_blank">Semantisches HTML</a>: Sinnvoller Einsatz, verkannte und unbekannte Elemente</li>
-                        <li>Nutzung von <a href="http://www.w3.org/WAI/intro/aria" target="_blank">WAI-ARIA</a> in der Praxis</li>
-                        <li>Barrierefreies <a href="https://de.wikipedia.org/wiki/Scalable_Vector_Graphics" target="_blank">SVG</a></li>
-                        <li>Tools und Hilfestellung für die barrierfreie Entwicklung</li>
-                        <li>Barrierefreiheits-Ertüchtigung für Content-Redakteure</li>
-                        <li>Barrierefreiheit in <a href="https://de.wikipedia.org/wiki/Content-Management-System" target="_blank">Content-Management-Systemen</a></li>
-                        <li>Argumentationshilfen für Verkaufs- und Konzeptionsgespräche</li>
-                        <li>usw.</li>
-                    </ul>
-                    <p>Zu manchen dieser Themen können wir womöglich selbst etwas erzählen, vor allem aber sind wir auf <b>Deinen Beitrag</b> gespannt! Bring gerne am Veranstaltungstag eigene Vorschläge mit oder lass uns <a href="mailto:hello@a11y-club.org?subject=Themenvorschlag" title="Themenvorschlag">im Vorfeld wissen</a>, was Dich noch interessiert. Wir freuen uns!</p>
+                    <h2 id="joschi">Your host: Joschi Kuphal</h2>
+                    <figure class="portrait">
+                        <img src="/img/joschi-kuphal-a11y.jpg" alt="Portrait of Joschi Kuphal"/>
+                        <figcaption>
+                            <p><a href="https://jkphl.is" target="_blank">Joschi</a> is an interior designer, programmer and restless tinkerer from Nuremberg.</p>
+                            <p>He's working on the web since the mid 90s, founder of <a href="https://tollwerk.de" target="_blank">tollwerk</a> and the <a href="http://odl-nbg.de" target="_blank">Open Device Lab Nürnberg</a>, <a href="http://indieweb.org" target="_blank">IndieWeb</a> enthusiast and author of several of Open Source tools. Since 2013 he launched several events like the <a href="https://border-none.net" target="_blank">border:none</a> conference, the <a href="http://accessibility-club.org" target="_blank">Accessibility Club</a>, the <a href="http://coderdojo-nbg.org" target="_blank">CoderDojo Nürnberg</a>, the Homebrew Website Club Nürnberg and is one of the driving forces behind the <a href="http://nueww.de" target="_blank">Nürnberg Web Week</a>.</p>
+                        </figcaption>
+                    </figure>
 		   		</div>
-		   		<div class="right content" id="proposal">
-                    <h2>Anmeldung & Treffpunkt</h2>
-                    <p>Der nächste Accessibility Club trifft sich <b>am 12. April 2016</b> um <b>16 Uhr</b> in den neuen <b>tollwerk Veranstaltungsräumen</b>. Die Teilnahme ist kostenlos.<p>
-                    <blockquote>WICHTIG: Wir bitten um Anmeldung per E-Mail an <a href="mailto:hello@a11y-club.org?subject=Teilnahme">hello@a11y-club.org</a></blockquote>
-                    <p>Alternativ kannst Du dich auch über <a href="https://www.facebook.com/events/1133509876661843/" target="_blank">Facebook</a> oder <a href="https://www.xing.com/events/accesibility-club-3-1614918" target="_blank">XING</a> anmelden. Nutze außerdem die <a href="http://lanyrd.com/cfwfqf" target="_blank">Lanyrd-Seite</a> zum Event, um Deinen Freunden zu zeigen, dass du teilnimmst.</p>
-		   			<h2>Und in Zukunft?</h2>
-		   			<p>Ab dem dritten Mal soll der Accessiblity Club im Bestfall regelmäßig stattfinden — hilf uns bei der Organisation und nimm <a href="mailto:hello@a11y-club.org">Kontakt zu uns</a> auf. Sollest Du Lust haben, etwas ähnliches zu veranstalten, vielleicht sogar in einer anderen Region, dann freuen wir uns auf den Austausch mit Dir!</p>
+		   		<div class="right content">
+                    <h2 id="stefan">Your host: Stefan Judis</h2>
+                    <figure class="portrait">
+                        <img src="/img/stefan-judis-a11y.jpg" alt="Portrait of Stefan Judis"/>
+                        <figcaption>
+                            <p><a href="https://www.stefanjudis.de/" target="_blank">Stefan</a> started programming 6 years ago and quickly fell in love with web performance, new technologies and automation.</p>
+                            <p>He is also a curator of the web performance online resource <a href="http://www.perf-tooling.today" target="_blank">Perf Tooling</a>, organizer of the <a href="http://www.meetup.com/de-DE/Berlin-Web-Performance-Group/" target="_blank">Web Performance Meetup Berlin</a>, contributes constantly to a variety of open source projects and enjoys sharing nerdy discoveries.<p>
+                        </figcaption>
+                    </figure>
 		   		</div>
 		   	</section>
 		</main>
 		<footer>
 			<section>
+                <h2>Sponsors</h2>
 				<div class="left content">
-					<p class="by">Eine Initiative von:</p>
-					<address class="h-card icons-tollwerk" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization">
+					<h3>An initiative of</h3>
+					<address class="h-card icons-tollwerk" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization" id="tollwerk">
 						<div class="p-name p-label p-org" itemprop="name">tollwerk<sup>®</sup> GmbH</div>
 						<div class="p-adr h-adr" itemprop="address" itemscope="itemscope" itemtype="http://data-vocabulary.org/Address">
 							<div class="p-street-address" itemprop="street-address">Klingenhofstraße 5</div>
@@ -172,34 +201,45 @@
 							<dt>E-Mail</dt>
 							<dd><a href="mailto:info@tollwerk.de" target="_blank" class="u-email">info@tollwerk.de</a></dd>
 						</dl>
+                        <p class="p-note">Tollwerk is a web and advertisement agency focusing on highly customized, complex TYPO3 projects, multi-device websites and services, performance and accessibility matters as well as classic advertisement and graphic design.</p>
 					</address>
 				</div>
 				<div class="right content">
-					<p class="by">Unterstützt durch:</p>
-					<address class="h-card icons-protak" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization">
-						<div class="p-name p-label p-org" itemprop="name">ProTak GmbH</div>
+					<h3 class="by">Kindly supported by</h3>
+					<address class="h-card icons-contentful" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization" id="contentful">
+						<div class="p-name p-label p-org" itemprop="name">Contentful GmbH</div>
 						<div class="p-adr h-adr" itemprop="address" itemscope="itemscope" itemtype="http://data-vocabulary.org/Address">
-							<div class="p-street-address" itemprop="street-address">Königstraße 73</div>
+							<div class="p-street-address" itemprop="street-address">Ritterstraße 12-14</div>
 							<div>
-								<span class="p-postal-code" itemprop="postal-code">90402</span>
-								<span class="p-locality" itemprop="locality">Nürnberg</span>
+								<span class="p-postal-code" itemprop="postal-code">10969</span>
+								<span class="p-locality" itemprop="locality">Berlin</span>
 								<span class="hide">, <span class="p-country" itemprop="country-name">Deutschland</span></span>
 								<span class="hide" itemprop="geo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Geo">
-									<span class="p-latitude" itemprop="latitude">49.451724</span>
-									<span class="p-longitude" itemprop="longitude">11.0775409</span>
+									<span class="p-latitude" itemprop="latitude">52.5020786</span>
+									<span class="p-longitude" itemprop="longitude">13.4089942</span>
 								</span>
 							</div>
-							<div class="p-region hide" itemprop="region">Bayern</div>
+							<div class="p-region hide" itemprop="region">Berlin</div>
 						</div>
 						<dl>
 							<dt>Internet</dt>
-							<dd><a href="http://protak.net" target="_blank" class="u-url" itemprop="url">http://protak.net</a></dd>
-							<dt>E-Mail</dt>
-							<dd><a href="mailto:kontakt@protak.net" target="_blank" class="u-email">kontakt@protak.net</a></dd>
+							<dd><a href="https://www.contentful.com" target="_blank" class="u-url" itemprop="url">https://www.contentful.com</a></dd>
 						</dl>
+                        <p class="p-note">Contentful is a content management developer platform that enables web and mobile developers to manage, integrate, and deliver digital content to any kind of device or service that can connect to an API — be it smartcars, VR, mobile, web, digital signage, or any new platform.</p>
 					</address>
 				</div>
 			</section>
+            <div>
+                <h3 class="by">A side event of</h3>
+                <address class="h-card icons-btconf" itemscope="itemscope" itemtype="http://data-vocabulary.org/Organization" id="btconf">
+                    <div class="p-name p-label p-org" itemprop="name">beyond tellerrand // BERLIN 2016</div>
+                    <dl>
+                        <dt>Internet</dt>
+                        <dd><a href="http://tollwerk.de" target="_blank" class="u-url" itemprop="url">https://beyondtellerrand.com/events/berlin-2016</a></dd>
+                    </dl>
+                    <p class="p-note">beyond tellerrand is an affordable web design and development event taking place in Düsseldorf and Berlin. btconf is an event for Web enthusiasts.</p>
+                </address>
+            </div>
 		</footer>
 	</body>
 </html>

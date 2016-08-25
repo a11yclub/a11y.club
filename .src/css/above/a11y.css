@@ -9,7 +9,7 @@ body {
 main, header, section, footer, figure, figcaption {
   display: block; }
 
-p, li {
+p, li, figcaption, blockquote {
   line-height: 1.75; }
 
 h1, h2 {
@@ -29,6 +29,14 @@ a {
   color: #ff7f00;
   font-weight: bold; }
 
+figure {
+  display: block;
+  margin: 0; }
+
+figcaption {
+  display: block;
+  text-align: left; }
+
 main {
   padding: 1em; }
 
@@ -43,7 +51,12 @@ footer {
   footer .content {
     padding-top: 3em; }
   footer address {
-    padding: 100px 0 0 0; }
+    padding: 120px 0 0 0; }
+  footer h2 {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    top: 0;
+    left: 0; }
 
 #wiref {
   padding-top: 160px; }
@@ -58,22 +71,25 @@ dd {
 .by {
   margin: 0 0 2em 0; }
 
-blockquote {
+blockquote, .cto {
   margin: 0;
   padding: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large; }
+
+.cto {
+  display: block;
   background-color: #ff7f00;
-  color: #fff;
-  text-align: center; }
-  blockquote a {
-    color: #fff; }
+  color: #fff; }
 
 p {
   hyphens: auto; }
 
 .portrait {
-  text-align: center;
-  margin-top: 2em; }
+  text-align: center; }
   .portrait img {
+    margin: 1em 0;
     border-radius: 50%; }
 
 header {
@@ -126,9 +142,10 @@ header {
 
 .address {
   text-align: center;
-  margin: 3em 0 2em 0;
+  margin: 1em 0 2em 0;
+  padding: 0 1em;
   font-size: medium;
-  display: block;
+  display: inline-block;
   color: #fff; }
 
 .p-location {
@@ -144,7 +161,7 @@ header {
 .dateblock {
   position: relative;
   display: inline-block;
-  margin: 2em auto 0; }
+  margin: 2em auto; }
   .dateblock .label {
     margin: 0;
     font-size: 0.85em;
@@ -158,13 +175,13 @@ header {
       left: 0;
       right: 0; }
   .dateblock .scheduled:before {
-    right: 92%; }
+    right: calc(50% + 8.5em); }
   .dateblock .scheduled:after {
-    left: 92%; }
+    left: calc(50% + 8.5em); }
   .dateblock .at:before {
-    right: 80%; }
+    right: calc(50% + 4em); }
   .dateblock .at:after {
-    left: 80%; }
+    left: calc(50% + 4em); }
 
 .dt-start {
   display: inline-block;
@@ -233,14 +250,14 @@ header {
       .header h1:before, .header h1:after {
         content: '';
         position: absolute;
-        right: 66%;
+        right: calc(50% + 2.9em);
         left: 0;
         bottom: -0.38em;
         height: 9px;
         background-color: #fff; }
       .header h1:after {
         right: 0;
-        left: 66%; }
+        left: calc(50% + 2.9em); }
     .header .icons-a11y {
       position: absolute;
       top: 60px;

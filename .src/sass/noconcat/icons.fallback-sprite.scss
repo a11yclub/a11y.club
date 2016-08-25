@@ -1,5 +1,5 @@
 %svg-common {
-	background: url(icons/icons-b9b5779b.png) no-repeat;
+	background: url(css/icons/icons-0ee2588e.png) no-repeat;
 }
 
 .icons-a11y { 
@@ -12,9 +12,29 @@
 	height: 200px;
 }
 
+.icons-btconf { 
+	@extend %svg-common;
+	background-position: 0 42.73504273504273%;
+}
+
+.icons-btconf-dims {
+	width: 250.318px;
+	height: 86px;
+}
+
+.icons-contentful { 
+	@extend %svg-common;
+	background-position: 0 61.111111111111114%;
+}
+
+.icons-contentful-dims {
+	width: 420.864px;
+	height: 86px;
+}
+
 .icons-location { 
 	@extend %svg-common;
-	background-position: 0 34.542314335060446%;
+	background-position: 0 81.22270742358079%;
 }
 
 .icons-location-dims {
@@ -22,43 +42,13 @@
 	height: 96px;
 }
 
-.icons-nueww2016 { 
-	@extend %svg-common;
-	background-position: 0 49.85237969323944%;
-}
-
-.icons-nueww2016-dims {
-	width: 150px;
-	height: 81.247px;
-}
-
-.icons-protak { 
-	@extend %svg-common;
-	background-position: 0 63.529411764705884%;
-}
-
-.icons-protak-dims {
-	width: 300px;
-	height: 80px;
-}
-
 .icons-tollwerk { 
 	@extend %svg-common;
-	background-position: 0 77.75891341256367%;
+	background-position: 0 100%;
 }
 
 .icons-tollwerk-dims {
 	width: 324px;
 	height: 86px;
-}
-
-.icons-wiref { 
-	@extend %svg-common;
-	background-position: 0 99.94121105232217%;
-}
-
-.icons-wiref-dims {
-	width: 160px;
-	height: 130.68px;
 }
 

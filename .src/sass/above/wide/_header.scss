@@ -6,11 +6,11 @@ header {
     position: relative;
     max-width: 710px;
     margin: 0 auto;
-    
+
     div.headblock {
         text-align: center;
     }
-    
+
     h1 {
         position: relative;
         display: inline-block;
@@ -20,12 +20,12 @@ header {
         margin: 310px 0 0.05em;
         font-size: 4.675em;
         text-align: center;
-        
+
         &:before,
         &:after {
             content: '';
             position: absolute;
-            right: 66%;
+            right: calc(50% + 2.9em);
             left: 0;
             bottom: -0.38em;
             height: 9px;
@@ -33,10 +33,10 @@ header {
         }
         &:after {
             right: 0;
-            left: 66%;
+            left: calc(50% + 2.9em);
         }
     }
-    
+
     .icons-a11y {
         position: absolute;
         top: 60px;

@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
 	grunt.initConfig({
-		
+
 		sass					: {
 			above				: {
 				files			: [{
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
 				expand			: true,
 				cwd				: '.src/icons',
 				options			: {
-					log			: 'info',
+					log			: 'debug',
 					shape		: {
 //						dest	: 'icons'
 						transform			: [
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 							}
 						},
 						bust			: true,
-						preview			: 'icons/preview',
+						// preview			: 'icons/preview',
 						loader			: {
 							dest		: 'icons-loader-fragment.html',
 							css			: 'icons.%s.css'
@@ -116,19 +116,19 @@ module.exports = function(grunt) {
 				dest			: 'favicons'
 		    }
 		},
-		
-		
+
+
 		copy					: {
-			
+
 			favicon: {
 				src				: 'favicons/favicon.ico',
 				dest			: 'favicon.ico'
 			}
-			
+
 		},
-		
+
 		replace					: {
-			
+
 			favicon: {
 				src				: ['favicons/favicons.html'],
 				overwrite		: true,
@@ -140,9 +140,9 @@ module.exports = function(grunt) {
 					to			: '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/><link rel="icon" href="favicon.ico" type="image/x-icon"/>'
 			    }]
 			}
-			
+
 		},
-		
+
 		autoprefixer			: {
 			options				: {
 				browsers		: ['last 3 versions', 'ie 8']
@@ -163,7 +163,7 @@ module.exports = function(grunt) {
 				dest			: 'css/'
 			}
 		},
-		
+
 		cssmin					: {
 			general				: {
 				files			: {
@@ -239,7 +239,7 @@ module.exports = function(grunt) {
 				files : '.src/sass/noconcat/**/*.scss',
 				tasks : ['sass:noconcat']
 			},
-			
+
 			// Watch changing CSS resources
 			cssGeneral : {
 				files : ['.src/css/*.css'],
@@ -269,7 +269,7 @@ module.exports = function(grunt) {
 					spawn : true
 				}
 			},
-			
+
 			// Watch SVG icon changes
 			iconizr : {
 				files : ['.src/icons/**/*.svg'],
@@ -278,7 +278,7 @@ module.exports = function(grunt) {
 					spawn : true
 				}
 			},
-			
+
 			// Watch & uglify changing JavaScript resources
 			javascript : {
 				files : ['js/*.js', '!js/*.min.js'],
@@ -298,7 +298,7 @@ module.exports = function(grunt) {
 								'cssmin']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('icons', ['iconizr']);
-	
+
 	grunt.registerTask('favicon', ['clean:favicon', 'favicons', 'copy:favicon', 'replace:favicon']);
-	
+
 };

@@ -14,7 +14,7 @@ main, header, section, footer, figure, figcaption {
     display: block;
 }
 
-p, li {
+p, li, figcaption, blockquote {
 	line-height: 1.75;
 }
 
@@ -39,6 +39,16 @@ a {
     font-weight: bold;
 }
 
+figure {
+	display: block;
+	margin: 0;
+}
+
+figcaption {
+	display: block;
+	text-align: left;
+}
+
 main {
     padding: 1em;
 }
@@ -52,14 +62,21 @@ footer {
     margin: 1em 1em 0 1em;
     border-top: 9px solid #eee;
     padding: 0 0 3em 0;
-    
+
     .content {
         padding-top: 3em;
     }
-    
+
     address {
-        padding: 100px 0 0 0;
+        padding: 120px 0 0 0;
     }
+
+	h2 {
+		position: absolute;
+		clip: rect(0,0,0,0);
+		top: 0;
+		left: 0;
+	}
 }
 
 #wiref {
@@ -79,16 +96,18 @@ dd {
     margin: 0 0 2em 0;
 }
 
-blockquote {
+blockquote, .cto {
 	margin: 0;
 	padding: 2em;
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.cto {
+	display: block;
 	background-color: $orange;
 	color: #fff;
-	text-align: center;
-	
-	a {
-		color: #fff;
-	}
 }
 
 p {
@@ -97,9 +116,9 @@ p {
 
 .portrait {
 	text-align: center;
-	margin-top: 2em;
-	
+
 	img {
+		margin: 1em 0;
 		border-radius: 50%;
 	}
 }

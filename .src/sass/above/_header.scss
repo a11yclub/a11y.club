@@ -50,9 +50,10 @@ header {
 
 .address {
     text-align: center;
-    margin: 3em 0 2em 0;
+    margin: 1em 0 2em 0;
+    padding: 0 1em;
     font-size: medium;
-    display: block;
+    display: inline-block;
     color: #fff;
 }
 
@@ -71,7 +72,7 @@ header {
 .dateblock {
     position: relative;
     display: inline-block;
-    margin: 2em auto 0;
+    margin: 2em auto;
 
     .label {
         margin: 0;
@@ -92,19 +93,19 @@ header {
 
     .scheduled {
         &:before {
-            right: 92%;
+            right: calc(50% + 8.5em);
         }
         &:after {
-            left: 92%;
+            left: calc(50% + 8.5em);
         }
     }
 
     .at {
         &:before {
-            right: 80%;
+            right: calc(50% + 4em);
         }
         &:after {
-            left: 80%;
+            left: calc(50% + 4em);
         }
     }
 }
