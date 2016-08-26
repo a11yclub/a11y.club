@@ -1,6 +1,7 @@
 /* global module:false */
 module.exports = function(grunt) {
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+	var mozjpeg = require('imagemin-mozjpeg');
 
 	grunt.initConfig({
 
@@ -95,7 +96,7 @@ module.exports = function(grunt) {
 						// preview			: 'icons/preview',
 						loader			: {
 							dest		: 'icons-loader-fragment.html',
-							css			: 'icons.%s.css'
+							css			: 'icons.%s.min.css'
 						}
 					}
 				}
@@ -185,7 +186,13 @@ module.exports = function(grunt) {
 				cwd				: 'css/',
 				src				: ['*.css', '!*.min.css', '!a11y.css', '!a11y-above.css', '!a11y-below.css'],
 				dest			: 'css/',
-				ext				: '.min.css'
+				//ext				: '.min.css',
+				rename			: function (dest, src) {
+					var folder = src.substring(0, src.lastIndexOf('/')),
+						filename = src.substring(src.lastIndexOf('/'), src.length);
+					filename = filename.substring(0, filename.lastIndexOf('.'));
+					return dest + '/' + folder + filename + '.min.css';
+				}
 			}
 		},
 
@@ -223,6 +230,54 @@ module.exports = function(grunt) {
 			above				: ['css/a11y-above.css', 'css/a11y-above.min.css'],
 			below				: ['css/a11y-below.css', 'css/a11y-below.min.css'],
 			favicon				: ['favicon.ico']
+		},
+
+		imagemin: {
+			dist: {
+				options: {
+					optimizationLevel: 3,
+					svgoPlugins: [{ removeViewBox: false }],
+					use: [mozjpeg()]
+				},
+				files: [{
+					expand: true,
+					cwd: '.src/img/',
+					src: ['**/*.{png,jpg,gif}'],
+					dest: 'img/'
+				}]
+			}
+		},
+
+		'string-replace': {
+			dist: {
+				files: {
+					'index.html': '.src/html/index.html',
+				},
+				options: {
+					replacements: [
+						{
+							pattern: '<link rel="stylesheet" type="text/css" href="css/a11y-above.min.css" media="all" />',
+							replacement: '<style><%= grunt.file.read("css/a11y-above.min.css") %></style>'
+						},
+						{
+							pattern: '<!-- iconizr -->',
+							replacement: '<%= grunt.file.read("css/icons-loader-fragment.html") %>'
+						}
+					]
+				}
+			}
+		},
+
+		htmlmin: {
+			dist: {
+				options: {
+					removeComments: true,
+					collapseWhitespace: true
+				},
+				files: {
+					'index.html': 'index.html',
+				}
+			},
 		},
 
 		watch : {
@@ -286,7 +341,17 @@ module.exports = function(grunt) {
 				options : {
 					spawn : true
 				}
-			}
+			},
+
+			html: {
+				files: '.src/html/**/*.html',
+				tasks: ['html']
+			},
+
+			images: {
+				files: '.src/img/**/*.{png,jpg,gif}',
+				tasks: ['images']
+			},
 		}
 	});
 
@@ -298,6 +363,8 @@ module.exports = function(grunt) {
 								'cssmin']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('icons', ['iconizr']);
+	grunt.registerTask('images', ['imagemin']);
+	grunt.registerTask('html', ['string-replace', 'htmlmin']);
 
 	grunt.registerTask('favicon', ['clean:favicon', 'favicons', 'copy:favicon', 'replace:favicon']);
 
