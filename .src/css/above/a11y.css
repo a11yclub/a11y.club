@@ -257,14 +257,14 @@ header {
       .header h1:before, .header h1:after {
         content: '';
         position: absolute;
-        right: calc(50% + 2.9em);
+        right: calc(50% + 2.3em);
         left: 0;
         bottom: -0.38em;
         height: 9px;
         background-color: #fff; }
       .header h1:after {
         right: 0;
-        left: calc(50% + 2.9em); }
+        left: calc(50% + 2.3em); }
     .header .icons-a11y {
       position: absolute;
       top: 60px;
