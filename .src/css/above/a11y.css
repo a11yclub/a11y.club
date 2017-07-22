@@ -163,33 +163,45 @@ header {
   font-weight: 400;
   background-size: contain; }
 
-.dateblock {
+.dateblock,
+.coc {
   position: relative;
   display: inline-block;
   margin: 2em auto; }
-  .dateblock .label {
-    margin: 0;
-    font-size: 0.85em;
-    font-weight: 400; }
-    .dateblock .label:before, .dateblock .label:after {
-      content: '';
-      position: absolute;
-      margin-top: 0.65em;
-      height: 1px;
-      background-color: #fff;
-      left: 0;
-      right: 0; }
-  .dateblock .scheduled:before {
-    right: calc(50% + 8.5em); }
-  .dateblock .scheduled:after {
-    left: calc(50% + 8.5em); }
-  .dateblock .at:before {
-    right: calc(50% + 4em); }
-  .dateblock .at:after {
-    left: calc(50% + 4em); }
+
+.dateblock .label {
+  margin: 0;
+  font-size: 0.85em;
+  font-weight: 400; }
+  .dateblock .label:before, .dateblock .label:after {
+    content: '';
+    position: absolute;
+    margin-top: 0.65em;
+    height: 1px;
+    background-color: #fff;
+    left: 0;
+    right: 0; }
+
+.dateblock .scheduled:before {
+  right: calc(50% + 8.5em); }
+
+.dateblock .scheduled:after {
+  left: calc(50% + 8.5em); }
+
+.dateblock .at:before {
+  right: calc(50% + 4em); }
+
+.dateblock .at:after {
+  left: calc(50% + 4em); }
+
+.coc {
+  color: #ff7f00; }
 
 .dt-start {
-  display: inline-block;
+  display: inline-block; }
+
+.coc,
+.dt-start {
   margin: 0.15em 0 0.2em 0;
   font-size: 2.5em;
   font-weight: 900;

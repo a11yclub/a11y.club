@@ -252,6 +252,7 @@ module.exports = function(grunt) {
 			dist: {
 				files: {
 					'index.html': '.src/html/index.html',
+					'code-of-conduct.html': '.src/html/code-of-conduct.html',
 				},
 				options: {
 					replacements: [
@@ -276,6 +277,7 @@ module.exports = function(grunt) {
 				},
 				files: {
 					'index.html': 'index.html',
+					'code-of-conduct.html': 'code-of-conduct.html',
 				}
 			},
 		},
