@@ -1,0 +1,43 @@
+blockquote {
+    margin: 0;
+
+    p {
+        line-height: 1.2;
+        font-size: 5vw;
+    }
+
+    b {
+        color: $iwcorange;
+    }
+
+    &::before {
+        font-size: 40vw;
+        content: "„";
+        float: left;
+        line-height: 0;
+		height: .5em;
+        shape-outside: circle(50%);
+        margin: -8vw 4vw 0 -6vw;
+        color: $iwcorange;
+    }
+
+    .author {
+        text-align: center;
+        margin-top: 2em;
+        font-size: 3vmin;
+    }
+}
+
+.blockquote {
+    img {
+        float: left;
+        max-width: 20vw;
+        border-radius: 50%;
+        margin-right: 5vw;
+        shape-outside: circle(50%);
+    }
+
+    blockquote::before {
+        display: none;
+    }
+}

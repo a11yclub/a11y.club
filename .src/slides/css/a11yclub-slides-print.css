@@ -1,0 +1,29 @@
+@page {
+  size: A4 landscape;
+  margin: 0;
+  padding: 0; }
+
+html, body, .slides {
+  height: auto;
+  overflow: visible;
+  margin: 0;
+  padding: 0; }
+
+.slides {
+  position: static;
+  width: 297mm;
+  height: auto; }
+  .slides > li {
+    position: relative;
+    display: table !important;
+    height: 210mm;
+    opacity: 1; }
+    .slides > li:first-child {
+      display: none !important; }
+    .slides > li section ul, .slides > li section p {
+      width: 70vw; }
+    .slides > li > section::before {
+      display: none !important; }
+
+#org-3 {
+  display: none !important; }

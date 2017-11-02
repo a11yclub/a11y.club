@@ -1,0 +1,160 @@
+#start {
+	section {
+		text-align: center;
+
+		img {
+			width: 20vw;
+		}
+
+		h1 {
+			font-size: 7.5vw;
+			white-space: nowrap;
+			font-weight: bold;
+			max-width: none;
+
+			&:before {
+				display: block;
+				content: "";
+				background-color: $foreground;
+				height: .7vw;
+				margin: .35em 0;
+			}
+		}
+
+		figcaption {
+			margin-top: 1em;
+			overflow: hidden;
+		}
+
+		.tagline {
+			width: 100%;
+			font-size: 3vw;
+			margin-top: .5em;
+		}
+
+		.date {
+			position: relative;
+			color: $a11yorange;
+			font-weight: bold;
+
+			&::before,
+			&::after {
+				content: "";
+				height: .7vw;
+				background-color: $foreground;
+				position: absolute;
+				width: 50vw;
+				top: .5em;
+			}
+
+			&::before {
+				right: 110%;
+			}
+
+			&::after {
+				left: 110%;
+			}
+		}
+
+		.time {
+			display: block;
+			font-size: 2vw;
+		}
+	}
+}
+
+#history {
+	section {
+		background-image: url(img/a11yclub-1.jpg);
+		background-size: cover;
+		background-position: center bottom;
+		text-align: right;
+	}
+
+	p {
+		display: inline-block;
+		background-color: transparentize($petrol, .2);
+		padding: 1em;
+		text-align: left;
+	}
+}
+
+#speakers, #hosts {
+	section > div {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	h2 {
+		font-size: 2vw;
+		text-align: center;
+		margin-bottom: 1.5em;
+		max-width: none;
+	}
+}
+
+h2::after {
+	display: none;
+}
+
+#speakers {
+	.person {
+		width: 30%;
+	}
+}
+#hosts {
+	.person {
+		width: 50%;
+	}
+}
+
+.person {
+	text-align: center;
+
+	img {
+		border-radius: 50%;
+		width: 100%;
+		max-width: 18vw;
+	}
+
+	.p-name {
+		font-weight: bold;
+		font-size: 200%;
+		margin: .8em;
+		line-height: 1;
+	}
+
+	a {
+		display: block;
+	}
+}
+
+.company {
+	img {
+		width: 40vw;
+	}
+
+	figcaption {
+		padding-left: 2em;
+	}
+
+	a {
+		display: block;
+		margin: 1em 0;
+	}
+}
+
+.side-event {
+	padding: 0 0 1em 2em !important;
+
+}
+
+.highlight {
+	text-decoration: underline;
+}
+
+code {
+	background-color: $darkred;
+	color: $foreground;
+	padding: 0 .2em;
+}

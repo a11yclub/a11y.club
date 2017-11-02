@@ -1,0 +1,1 @@
+@page{size:A4 landscape;margin:0;padding:0}.slides,body,html{height:auto;overflow:visible;margin:0;padding:0}.slides{position:static;width:297mm;height:auto}.slides>li{position:relative;display:table!important;height:210mm;opacity:1}#org-3,.slides>li:first-child,.slides>li>section::before{display:none!important}.slides>li section p,.slides>li section ul{width:70vw}
