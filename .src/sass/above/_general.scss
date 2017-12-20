@@ -132,3 +132,14 @@ p {
 		border-radius: 50%;
 	}
 }
+
+.colloq::before {
+	display: inline-block;
+	content: "";
+	width: 1em;
+	height: 1em;
+	background: url("https://colloq.io/assets/images/icon-square-color.svg") center no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: .2em;
+}
