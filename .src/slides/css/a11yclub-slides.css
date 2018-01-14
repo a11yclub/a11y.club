@@ -360,8 +360,8 @@ h2::after {
     max-width: 18vw; }
   .person .p-name {
     font-weight: bold;
-    font-size: 200%;
-    margin: .8em;
+    font-size: 180%;
+    margin: .8em 0;
     line-height: 1; }
   .person a {
     display: block; }
@@ -386,3 +386,7 @@ code {
   background-color: #d34;
   color: #fff;
   padding: 0 .2em; }
+
+.feature {
+  font-weight: bold;
+  color: #FBB03B; }

@@ -78,8 +78,13 @@ footer {
     }
 
     address {
-        padding: 120px 0 0 0;
+        padding: 6em 0 0 0;
+
     }
+
+	.support + address {
+		padding-top: 5.34em;
+	}
 
 	h2 {
 		position: absolute;
@@ -104,6 +109,10 @@ dd {
 
 .by {
     margin: 0 0 2em 0;
+}
+
+.support {
+    margin: 0 0 1.7em 0;
 }
 
 blockquote, .cto {

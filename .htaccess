@@ -35,23 +35,3 @@ FileETag MTime Size
 <IfModule mod_headers.c>
     FileETag none
 </IfModule>
-
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteBase /
-
-    ###########################################################################
-    # Redirect all non-accessibility-club.org requests to SSL if necessary
-    ###########################################################################
-    RewriteCond %{ENV:APP_ENV} !development
-    RewriteCond %{HTTP_HOST} !^accessibility-club\.org [NC]
-    RewriteRule ^ https://accessibility-club.org%{REQUEST_URI} [L,R=301]
-
-    ###########################################################################
-    # Redirect all accessibility-club.org requests to SSL if necessary
-    ###########################################################################
-    RewriteCond %{ENV:APP_ENV} !development
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^accessibility-club\.org [NC]
-    RewriteRule ^ https://accessibility-club.org%{REQUEST_URI} [L,R=301]
-</IfModule>

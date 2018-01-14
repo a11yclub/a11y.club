@@ -1,5 +1,5 @@
 %svg-common {
-	background: url(css/icons/icons-0ee2588e.svg) no-repeat;
+	background: url(css/icons/icons-d51d0885.svg) no-repeat;
 }
 
 .icons-a11y { 
@@ -14,7 +14,7 @@
 
 .icons-btconf { 
 	@extend %svg-common;
-	background-position: 0 42.73504273504273%;
+	background-position: 0 38.38771593090211%;
 }
 
 .icons-btconf-dims {
@@ -24,7 +24,7 @@
 
 .icons-contentful { 
 	@extend %svg-common;
-	background-position: 0 61.111111111111114%;
+	background-position: 0 54.89443378119002%;
 }
 
 .icons-contentful-dims {
@@ -34,12 +34,22 @@
 
 .icons-location { 
 	@extend %svg-common;
-	background-position: 0 81.22270742358079%;
+	background-position: 0 72.79843444227006%;
 }
 
 .icons-location-dims {
 	width: 54px;
 	height: 96px;
+}
+
+.icons-mindscreen { 
+	@extend %svg-common;
+	background-position: 0 84.40188281123194%;
+}
+
+.icons-mindscreen-dims {
+	width: 350px;
+	height: 52.51px;
 }
 
 .icons-tollwerk { 

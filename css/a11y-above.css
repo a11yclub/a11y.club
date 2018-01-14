@@ -52,7 +52,9 @@ footer {
   footer .content, footer .section {
     padding-top: 3em; }
   footer address {
-    padding: 120px 0 0 0; }
+    padding: 6em 0 0 0; }
+  footer .support + address {
+    padding-top: 5.34em; }
   footer h2 {
     position: absolute;
     clip: rect(0, 0, 0, 0);
@@ -76,6 +78,9 @@ dd {
 
 .by {
   margin: 0 0 2em 0; }
+
+.support {
+  margin: 0 0 1.7em 0; }
 
 blockquote, .cto {
   margin: 0;

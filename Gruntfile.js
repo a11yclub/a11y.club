@@ -251,7 +251,7 @@ module.exports = function (grunt) {
             },
             slides: {
                 files: {
-                    'archive/20171106/js/a11yclub-slides.min.js': ['.src/slides/js/actions.js', '.src/slides/js/slider.js']
+                    'archive/20180115/js/a11yclub-slides.min.js': ['.src/slides/js/actions.js', '.src/slides/js/slider.js']
                 }
             }
         },
@@ -288,7 +288,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '.src/slides/img/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'archive/20171106/img/'
+                    dest: 'archive/20180115/img/'
                 }]
             }
         },
@@ -314,7 +314,7 @@ module.exports = function (grunt) {
             },
             slides: {
                 files: {
-                    'archive/20171106/index.html': '.src/slides/html/index.html',
+                    'archive/20180115/index.html': '.src/slides/html/index.html',
                 },
                 options: {
                     replacements: [
@@ -352,7 +352,7 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: {
-                    'archive/20171106/index.html': 'archive/20171106/index.html',
+                    'archive/20180115/index.html': 'archive/20180115/index.html',
                 }
             },
         },
