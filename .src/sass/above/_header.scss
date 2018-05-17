@@ -104,10 +104,10 @@ header {
 
     .at {
         &:before {
-            right: calc(50% + 4em);
+            right: calc(50% + 5em);
         }
         &:after {
-            left: calc(50% + 4em);
+            left: calc(50% + 5em);
         }
     }
 }

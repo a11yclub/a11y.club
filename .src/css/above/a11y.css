@@ -204,10 +204,10 @@ header {
   left: calc(50% + 8.5em); }
 
 .dateblock .at:before {
-  right: calc(50% + 4em); }
+  right: calc(50% + 5em); }
 
 .dateblock .at:after {
-  left: calc(50% + 4em); }
+  left: calc(50% + 5em); }
 
 .coc {
   color: #ff7f00; }
@@ -254,7 +254,8 @@ header {
   .content {
     display: table-cell;
     width: 50%;
-    padding: 0; }
+    padding: 0;
+    vertical-align: top; }
   .left {
     padding-right: 3%; }
   .right {
