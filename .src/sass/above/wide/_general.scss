@@ -45,4 +45,9 @@ footer {
     max-width: 46.66667em;
     margin: 1em auto 0;
     box-sizing: border-box;
+
+    & .support + address.icons-mindscreen {
+        background-position: 0 .85em;
+        padding-top: 6.2em;
+    }
 }

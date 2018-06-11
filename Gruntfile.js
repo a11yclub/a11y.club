@@ -298,6 +298,7 @@ module.exports = function (grunt) {
                 files: {
                     'index.html': '.src/html/index.html',
                     'code-of-conduct.html': '.src/html/code-of-conduct.html',
+                    'privacy-policy.html': '.src/html/privacy-policy.html',
                 },
                 options: {
                     replacements: [
@@ -344,6 +345,7 @@ module.exports = function (grunt) {
                 files: {
                     'index.html': 'index.html',
                     'code-of-conduct.html': 'code-of-conduct.html',
+                    'privacy-policy.html': 'privacy-policy.html',
                 }
             },
             slides: {

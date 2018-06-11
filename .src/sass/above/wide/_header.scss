@@ -25,7 +25,7 @@ header {
         &:after {
             content: '';
             position: absolute;
-            right: calc(50% + 2.1em);
+            right: calc(50% + 2.2em);
             left: 0;
             bottom: -0.38em;
             height: 9px;
@@ -33,7 +33,7 @@ header {
         }
         &:after {
             right: 0;
-            left: calc(50% + 2.1em);
+            left: calc(50% + 2.2em);
         }
     }
 
