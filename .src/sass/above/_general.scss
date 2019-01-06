@@ -22,7 +22,7 @@ body {
 }
 
 main, header, section, footer, figure, figcaption {
-    display: block;
+	display: block;
 }
 
 p, li, figcaption, blockquote {
@@ -34,19 +34,19 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.4em;
-    line-height: 1;
+	font-size: 2.4em;
+	line-height: 1;
 }
 
 h2 {
-    font-size: 1.65em;
-    margin: 1.5em 0 1em;
-    hyphens: auto;
+	font-size: 1.65em;
+	margin: 1.5em 0 1em;
+	hyphens: auto;
 }
 
 a {
-    color: $orange;
-    font-weight: bold;
+	color: $orange;
+	font-weight: bold;
 }
 
 figure {
@@ -60,37 +60,29 @@ figcaption {
 }
 
 main {
-    padding: 1em;
+	padding: 1em;
 }
 
 address {
-    font-style: normal;
-    line-height: 1.5;
+	font-style: normal;
+	line-height: 1.5;
 }
 
 footer {
-    margin: 1em 1em 0 1em;
-    border-top: 9px solid #eee;
-    padding: 0 0 3em 0;
+	margin: 1em 1em 0 1em;
+	border-top: 9px solid #eee;
+	padding: 0 0 3em 0;
 
-    .content, .section {
-        padding-top: 3em;
-    }
+	.content, .section {
+		padding-top: 3em;
+	}
 
-    address {
-        padding: 6em 0 0 0;
-
-    }
+	address {
+		padding: 7em 0 0 0;
+	}
 
 	.support + address {
 		padding-top: 5.34em;
-	}
-
-	h2 {
-		position: absolute;
-		clip: rect(0,0,0,0);
-		top: 0;
-		left: 0;
 	}
 
 	a {
@@ -99,20 +91,20 @@ footer {
 }
 
 dt {
-    float: left;
-    clear: left;
+	float: left;
+	clear: left;
 }
 
 dd {
-    margin-left: 6em;
+	margin-left: 4em;
 }
 
 .by {
-    margin: 0 0 2em 0;
+	margin: 0 0 2em 0;
 }
 
 .support {
-    margin: 0 0 1.7em 0;
+	margin: 0 0 1.7em 0;
 }
 
 blockquote, .cto {
@@ -130,7 +122,7 @@ blockquote, .cto {
 }
 
 p {
-    hyphens: auto;
+	hyphens: auto;
 }
 
 .portrait {
@@ -156,4 +148,41 @@ p {
 .photo {
 	width: 100%;
 	height: auto;
+}
+
+.hide-element {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	vertical-align: top;
+	padding: .4em 0;
+}
+
+th {
+	white-space: nowrap;
+}
+
+th[scope="row"] {
+	width: 6em;
+}
+
+summary {
+	font-weight: bold;
+	cursor: default;
+	display: block;
+}
+
+#gesundheitscloud {
+	padding-top: 10em;
 }

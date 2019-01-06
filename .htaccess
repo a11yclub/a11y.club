@@ -35,3 +35,8 @@ FileETag MTime Size
 <IfModule mod_headers.c>
     FileETag none
 </IfModule>
+
+AuthName "Accessibility Club Staging Site"
+AuthType Basic
+AuthUserFile /www/accounts/a11y/.htpasswd
+require valid-user

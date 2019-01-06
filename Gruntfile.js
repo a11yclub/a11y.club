@@ -88,7 +88,7 @@ module.exports = function (grunt) {
                 options: {
                     log: 'debug',
                     shape: {
-//						dest	: 'icons'
+						dest	: 'icons',
                         transform: [
                             { svgo: { plugins: [{ convertPathData: false }] } }
                         ],
@@ -110,7 +110,7 @@ module.exports = function (grunt) {
                             }
                         },
                         bust: true,
-                        // preview			: 'icons/preview',
+                        preview: 'icons/preview',
                         loader: {
                             dest: 'icons-loader-fragment.html',
                             css: 'icons.%s.min.css'
@@ -303,7 +303,7 @@ module.exports = function (grunt) {
                 options: {
                     replacements: [
                         {
-                            pattern: '<link rel="stylesheet" type="text/css" href="css/a11y-above.min.css" media="all" />',
+                            pattern: '<link rel="stylesheet" type="text/css" href="css/a11y-above.min.css" media="all"/>',
                             replacement: '<style><%= grunt.file.read("css/a11y-above.min.css") %></style>'
                         },
                         {

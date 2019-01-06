@@ -135,9 +135,22 @@ header {
 .blink {
     color: $orange;
     animation: blink 1s step-end infinite;
-}
+}@
 
 @keyframes blink {
     0% {opacity: 1}
     50% {opacity: 0}
+}
+
+.livestream {
+    position: relative;
+    padding:  0 0 56.25% 0;
+    height: 0;
+    margin-bottom: 2em;
+
+
+    iframe {
+        position: absolute;
+        top: 0;
+    }
 }

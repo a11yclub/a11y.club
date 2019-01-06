@@ -1,5 +1,5 @@
-.icons-a11y, .icons-btconf, .icons-contentful, .icons-location, .icons-mindscreen, .icons-tollwerk {
-  background: url(css/icons/icons-d51d0885.svg) no-repeat; }
+.icons-a11y, .icons-beaverfilm, .icons-bnt, .icons-btconf, .icons-contentful, .icons-gesundheitscloud, .icons-location, .icons-mindscreen, .icons-mozilla, .icons-pointnine, .icons-simonefass, .icons-sinnerschrader, .icons-spreespeicher, .icons-talent-io, .icons-tollwerk {
+  background: url(icons/icons-21a2b4fa.svg) no-repeat; }
 
 .icons-a11y {
   background-position: 0 0; }
@@ -8,33 +8,96 @@
   width: 200px;
   height: 200px; }
 
+.icons-beaverfilm {
+  background-position: 0 15.256577491971225%; }
+
+.icons-beaverfilm-dims {
+  width: 420px;
+  height: 90.09px; }
+
+.icons-bnt {
+  background-position: 0 21.853458666548512%; }
+
+.icons-bnt-dims {
+  width: 300px;
+  height: 69.403px; }
+
 .icons-btconf {
-  background-position: 0 38.38771593090211%; }
+  background-position: 0 27.452471482889734%; }
 
 .icons-btconf-dims {
   width: 250.318px;
   height: 86px; }
 
 .icons-contentful {
-  background-position: 0 54.89443378119002%; }
+  background-position: 0 33.99239543726236%; }
 
 .icons-contentful-dims {
   width: 420.864px;
   height: 86px; }
 
+.icons-gesundheitscloud {
+  background-position: 0 42.5411004496746%; }
+
+.icons-gesundheitscloud-dims {
+  width: 300px;
+  height: 148.094px; }
+
 .icons-location {
-  background-position: 0 72.79843444227006%; }
+  background-position: 0 52.26053639846743%; }
 
 .icons-location-dims {
   width: 54px;
   height: 96px; }
 
 .icons-mindscreen {
-  background-position: 0 84.40188281123194%; }
+  background-position: 0 57.69416161780955%; }
 
 .icons-mindscreen-dims {
   width: 350px;
   height: 52.51px; }
+
+.icons-mozilla {
+  background-position: 0 63.18358595362736%; }
+
+.icons-mozilla-dims {
+  width: 300px;
+  height: 85.785px; }
+
+.icons-pointnine {
+  background-position: 0 69.71205197462999%; }
+
+.icons-pointnine-dims {
+  width: 300px;
+  height: 85.589px; }
+
+.icons-simonefass {
+  background-position: 0 75.41738976128103%; }
+
+.icons-simonefass-dims {
+  width: 300px;
+  height: 71.068px; }
+
+.icons-sinnerschrader {
+  background-position: 0 80.6581101542183%; }
+
+.icons-sinnerschrader-dims {
+  width: 300px;
+  height: 68.214px; }
+
+.icons-spreespeicher {
+  background-position: 0 87.31831264993524%; }
+
+.icons-spreespeicher-dims {
+  width: 294.803px;
+  height: 90.851px; }
+
+.icons-talent-io {
+  background-position: 0 93.45723669274892%; }
+
+.icons-talent-io-dims {
+  width: 420px;
+  height: 79.54px; }
 
 .icons-tollwerk {
   background-position: 0 100%; }

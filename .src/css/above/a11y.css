@@ -50,14 +50,9 @@ footer {
   footer .content, footer .section {
     padding-top: 3em; }
   footer address {
-    padding: 6em 0 0 0; }
+    padding: 7em 0 0 0; }
   footer .support + address {
     padding-top: 5.34em; }
-  footer h2 {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-    top: 0;
-    left: 0; }
   footer a {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -73,7 +68,7 @@ dt {
   clear: left; }
 
 dd {
-  margin-left: 6em; }
+  margin-left: 4em; }
 
 .by {
   margin: 0 0 2em 0; }
@@ -115,6 +110,37 @@ p {
 .photo {
   width: 100%;
   height: auto; }
+
+.hide-element {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+table {
+  width: 100%; }
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: .4em 0; }
+
+th {
+  white-space: nowrap; }
+
+th[scope="row"] {
+  width: 6em; }
+
+summary {
+  font-weight: bold;
+  cursor: default;
+  display: block; }
+
+#gesundheitscloud {
+  padding-top: 10em; }
 
 header {
   padding: 2em 1em;
@@ -238,6 +264,15 @@ header {
     opacity: 1; }
   50% {
     opacity: 0; } }
+
+.livestream {
+  position: relative;
+  padding: 0 0 56.25% 0;
+  height: 0;
+  margin-bottom: 2em; }
+  .livestream iframe {
+    position: absolute;
+    top: 0; }
 
 @media only print, screen and (min-width: 56em) {
   header {
